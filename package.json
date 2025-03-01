@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "20.6.1",
+    "tsc-watch": "6.0.4",
+    "typescript": "^5.8.2"
+  }
+}
