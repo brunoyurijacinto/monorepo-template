@@ -2,5 +2,9 @@
   "name": "app01",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc --build --verbose"
+  }
 }

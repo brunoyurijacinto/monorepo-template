@@ -1,11 +1,16 @@
 {
   "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "include": ["src/**/*"],
   "references": [
     {
-      "path": "./packages/shared"
+      "path": "../../packages/shared"
     },
     {
-      "path": "./packages/app1"
+      "path": "../../packages/app1"
     }
   ]
 }
