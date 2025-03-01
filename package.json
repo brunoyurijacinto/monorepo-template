@@ -12,6 +12,10 @@
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "20.6.1",
+    "@typescript-eslint/eslint-plugin": "^8.25.0",
+    "@typescript-eslint/parser": "^8.25.0",
+    "eslint": "^9.21.0",
+    "prettier": "^3.5.2",
     "tsc-watch": "6.0.4",
     "typescript": "^5.8.2"
   }
