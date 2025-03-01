@@ -7,10 +7,10 @@
   "include": ["src/**/*"],
   "references": [
     {
-      "path": "../../packages/shared"
+      "path": "../../packages/domain"
     },
     {
-      "path": "../../packages/app1"
+      "path": "../../packages/logger"
     }
   ]
 }

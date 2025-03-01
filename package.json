@@ -1,12 +1,14 @@
 {
   "name": "monorepo",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "app01": "yarn workspace app01 run server"
+  },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
     "@types/node": "20.6.1",

@@ -1,3 +1,3 @@
-export default function domain() {
-  return "domain";
+export function GetPerson() {
+  return "domain TR";
 }
