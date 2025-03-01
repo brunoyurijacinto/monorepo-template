@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "server": "tsc-watch --noClear --onsuccess \"node dist/index.js\"",
+    "server": "tsc-watch --build --noClear --onsuccess \"node dist/index.js\"",
     "build": "tsc --build --verbose"
   },
   "dependencies": {
